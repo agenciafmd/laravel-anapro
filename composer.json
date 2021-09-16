@@ -1,0 +1,32 @@
+{
+    "name": "agenciafmd/laravel-anapro",
+    "description": "Integração com a Anapro",
+    "homepage": "https://github.com/agenciafmd/laravel-anapro",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Paixão",
+            "email": "eduardo@fmd.ag",
+            "homepage": "https://fmd.ag/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "6.*|7.*|8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Agenciafmd\\Anapro\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agenciafmd\\Anapro\\Providers\\AnaproServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
