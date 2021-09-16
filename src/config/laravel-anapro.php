@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'key' => env('ANAPRO_KEY'),
     'campanha_key' => env('ANAPRO_CAMPANHA_KEY'),
     'produto_key' => env('ANAPRO_PRODUTO_KEY'),
     'canal_key' => env('ANAPRO_CANAL_KEY'),

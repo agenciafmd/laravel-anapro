@@ -35,6 +35,7 @@ class SendConversionsToAnapro implements ShouldQueue
         $client = $this->getClientRequest();
 
         $defaultKeys = [
+            "Key" => config('laravel-anapro.key'),
             "CampanhaKey" => config('laravel-anapro.campanha_key'),
             "ProdutoKey" => config('laravel-anapro.produto_key'),
             "CanalKey" => config('laravel-anapro.canal_key'),
